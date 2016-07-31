@@ -15,3 +15,11 @@ api.userPlaylists(uid:Number,[callback:function,limit:Number default:10, offset:
 ``` javascript
 api.fm([callback:function])
 ```
+###playlists 根据id获取歌单
+``` javascript
+api.playlists(id:Number,[callback:function])
+```
+###artistAlbums 根据歌手id专辑
+``` javascript
+api.artistAlbums(id:Number,[callback:function],limit:Number default:10, offset:Number default:0])
+```
