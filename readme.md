@@ -1,6 +1,6 @@
 #install
 ``` shell
-npm install NeteaseCloudMusicApi
+npm install neteaseMusicApi
 ``` 
 
 #useage
