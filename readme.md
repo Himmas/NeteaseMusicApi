@@ -1,3 +1,7 @@
+<p align="center">
+    <a href="https://www.npmjs.com/package/neteaseMusicApi"><img src="https://img.shields.io/npm/v/neteaseMusicApi.svg" alt="Version"></a>
+    <a href="https://www.npmjs.com/package/neteaseMusicApi"><img src="https://img.shields.io/npm/l/neteaseMusicApi.svg" alt="License"></a>
+</p>
 #install
 ``` shell
 npm install neteaseMusicApi

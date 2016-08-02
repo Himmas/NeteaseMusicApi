@@ -1,6 +1,6 @@
 {
     "name": "neteaseMusicApi",
-    "version": "0.0.8",
+    "version": "0.1.0",
     "description": "NetEaseMusic API",
     "main": "src/app.js",
     "scripts": {
