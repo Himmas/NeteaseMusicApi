@@ -1,4 +1,18 @@
-#API
+#install
+``` shell
+npm install NeteaseCloudMusicApi
+``` 
+
+#useage
+``` javascript
+var neteaseMusicApi = require('neteaseMusicApi')
+
+neteaseMusicApi.album(34720827,function (data) {
+    console.log(data);
+})
+``` 
+
+#api
 ###search 搜索
 ``` javascript
 api.search(name:String[,callback:function,limit:Number default:3, offset:Number default:0])
