@@ -15,11 +15,14 @@ var node_cryptojs = require('node-cryptojs-aes');
 var md5 = require('md5')
 
 var login = function () {
-
+    var phone = arguments.length <= 0 || arguments[0] === undefined ? null : arguments[0];
+    var password = arguments.length <= 1 || arguments[1] === undefined ? null : arguments[1];
+    var callback = arguments.length <= 2 || arguments[2] === undefined ? null : arguments[2];
+    var rememberLogin = arguments.length <= 3 || arguments[3] === undefined ? true : arguments[3];
     var textObj = {
-        phone:"",
-        password:md5(''),
-        rememberLogin:true,
+        phone:phone,
+        password:md5(password),
+        rememberLogin:rememberLogin,
         csrf_token:"3f053fd8a3aa37f56dd0ec02405e5e99"
     }
 
@@ -45,7 +48,7 @@ var login = function () {
     request(option, function (err, res, body) {
         if (!err && res.statusCode == 200) {
             var info = JSON.parse(body);
-            console.log(info);
+            callback && callback(JSON.stringify(info, '', 2));
         } else {
             console.error(err);
         }

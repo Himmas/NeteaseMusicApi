@@ -55,3 +55,7 @@ api.lrc(id:Number[,callback:function,lv:Number default:-1])
 ``` javascript
 api.song(id:Number[,callback:function])
 ```
+###login 用户登陆
+``` javascript
+api.login(phone:Number,password:String[,callback:function,rememberLogin:Boolean default:true])
+```
