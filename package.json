@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Himmas/NeteaseMusicApi#readme",
   "dependencies": {
+    "md5": "^2.1.0",
     "node-cryptojs-aes": "^0.4.0",
     "request": "^2.74.0"
   }
