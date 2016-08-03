@@ -10,8 +10,6 @@ var deepClone = require('../util').deepClone;
 
 var aesRsaEncrypt = require('../aesRsaEncrypt')
 
-var node_cryptojs = require('node-cryptojs-aes');
-
 var md5 = require('md5')
 
 var login = function () {
