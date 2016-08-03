@@ -1,22 +1,23 @@
 {
-    "name": "neteaseMusicApi",
-    "version": "0.1.1",
-    "description": "NetEaseMusic API",
-    "main": "src/app.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/Himmas/NeteaseMusicApi.git"
-    },
-    "author": "kylin&superFan",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/Himmas/NeteaseMusicApi/issues"
-    },
-    "homepage": "https://github.com/Himmas/NeteaseMusicApi#readme",
-    "dependencies": {
-        "request": "^2.74.0"
-    }
+  "name": "neteaseMusicApi",
+  "version": "0.1.2",
+  "description": "NetEaseMusic API",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Himmas/NeteaseMusicApi.git"
+  },
+  "author": "kylin&superFan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Himmas/NeteaseMusicApi/issues"
+  },
+  "homepage": "https://github.com/Himmas/NeteaseMusicApi#readme",
+  "dependencies": {
+    "node-cryptojs-aes": "^0.4.0",
+    "request": "^2.74.0"
+  }
 }

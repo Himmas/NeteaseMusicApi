@@ -3,6 +3,4 @@
  */
 var NeteaseApi = require('../src/app')
 
-NeteaseApi.login(function (data) {
-    console.log(data);
-},5)
+NeteaseApi.login()
