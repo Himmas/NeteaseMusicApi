@@ -41,7 +41,7 @@ neteaseMusicApi.playlists(id:Number[,callback:function])
 ```
 ###artistAlbums 根据歌手id专辑
 ``` javascript
-neteaseMusicApi.artistAlbums(id:Number[,callback:function],limit:Number default:10, offset:Number default:0])
+neteaseMusicApi.artistAlbums(id:Number[,callback:function,limit:Number default:10, offset:Number default:0])
 ```
 ###album 根据id获取专辑
 ``` javascript
@@ -58,4 +58,12 @@ neteaseMusicApi.song(id:Number[,callback:function])
 ###login 用户登陆
 ``` javascript
 neteaseMusicApi.login(phone:Number,password:String[,callback:function,rememberLogin:Boolean default:true])
+```
+###newAlbum 新碟上架
+``` javascript
+neteaseMusicApi.newAlbum([callback:function,limit:Number default:6, offset:Number default:0])
+```
+###hotArtist 热门歌手
+``` javascript
+neteaseMusicApi.hotArtist([callback:function,limit:Number default:6, offset:Number default:0])
 ```
