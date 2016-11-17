@@ -13,6 +13,7 @@ var song = require('./api/song')
 var lrc = require('./api/lrc')
 var hotArtist = require('./api/hotArtist')
 var newAlbum = require('./api/newAlbum')
+var comments = require('./api/comments')
 
 var NeteaseApi = {
     search: search,
@@ -26,6 +27,7 @@ var NeteaseApi = {
     song:song,
     lrc:lrc,
     hotArtist:hotArtist,
-    newAlbum:newAlbum
+    newAlbum:newAlbum,
+    comments: comments
 };
 module.exports = NeteaseApi;
