@@ -3,6 +3,6 @@
  */
 var NeteaseApi = require('../src/app')
 
-NeteaseApi.song(411921852,function (data) {
+NeteaseApi.song(327233,function (data) {
     console.log(data);
 })

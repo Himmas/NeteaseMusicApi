@@ -67,3 +67,7 @@ neteaseMusicApi.newAlbum([callback:function,limit:Number default:6, offset:Numbe
 ``` javascript
 neteaseMusicApi.hotArtist([callback:function,limit:Number default:6, offset:Number default:0])
 ```
+###comments 评论
+``` javascript
+neteaseMusicApi.comments(id:Number[,callback:function])
+```
